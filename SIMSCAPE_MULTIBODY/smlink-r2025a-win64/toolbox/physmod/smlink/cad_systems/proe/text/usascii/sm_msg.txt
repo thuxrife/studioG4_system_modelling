@@ -1,0 +1,182 @@
+SimMechanics USER %0s
+%0s
+
+
+SimMechanics Label
+Simscape Multibody Link
+
+
+SimMechanics Export Label
+Export
+
+
+SimMechanics1G Export Label
+Simscape Multibody First Generation (1G)...
+
+
+SimMechanics1G Export Help
+Export current assembly to an XML file for Simscape Multibody First Generation
+
+
+SimMechanics2G Export Label
+Simscape Multibody...
+
+
+SimMechanics2G Export Help
+Export current assembly to an XML file for Simscape Multibody
+
+
+SimMechanics Settings Label
+Settings...
+
+
+SimMechanics Settings Help
+Configure settings
+
+
+SimMechanics Help Label
+Help
+
+
+SimMechanics Help Help
+Opens Help
+
+
+SimMechanics Demo Label
+Demos
+
+
+SimMechanics Demo Help
+Opens Demo
+
+
+SimMechanics About Label
+About Simscape Multibody Link
+
+
+SimMechanics About Help
+Displays program information, vesrion number, and copyright
+
+
+SimMechanics AboutTextLine1 %0s
+Simscape(TM) Multibody(TM) is an engineering tool within Simulink® %0s
+
+
+SimMechanics AboutTextLine2 %0s
+for the design and simulation of mechanical systems of rigid %0s
+
+
+SimMechanics AboutTextLine3 %0s
+bodies connected by joints and obeying Newtonian dynamics. %0s
+
+
+SimMechanics AboutTextLine4 %0s
+Simscape Multibody Link provides a bridge between CAD systems %0s
+
+
+SimMechanics AboutTextLine5 %0s
+and Simscape Multibody. The Pro/Toolkit Application from Simscape %0s
+
+
+SimMechanics AboutTextLine6 %0s
+Multibody Link converts a PTC Creo (Pro/ENGINEER®) assembly %0s
+
+
+SimMechanics AboutTextLine7 %0s
+into an XML and associated graphics files that can be imported %0s
+
+
+SimMechanics AboutTextLine8 %0s
+as a Simscape Multibody model. %0s
+
+
+SimMechanics AboutTextLine9 %0s
+Copyright © 2005-2021 The Mathworks, Inc. %0s
+
+
+SimMechanics NoCurrentAssem
+Current model must be an assembly to run this command.
+
+
+SimMechanics HelpOpenError %0d
+Failed to open Simscape Multibody Link help file(s). Error Code: %0d
+
+
+SimMechanics HelpOpenErrorNoCode
+Failed to open Simscape Multibody Link help file(s).
+
+
+SimMechanics DemoOpenErrorNoCode
+Failed to open Simscape Multibody Link demo.
+
+
+SimMechanics MATLABConnectError
+MATLAB connection failed. Ensure MATLAB is registered as automation server.
+
+
+SimMechanics MATLABDisConnectError
+Could not disconnect from MATLAB.
+
+
+SimMechanics TransSuccess %0s
+The Physical Modeling XML file has been successfully saved as %0s.
+
+
+SimMechanics AbortExport
+Simscape Multibody Link export command has been aborted.
+
+
+SimMechanics ChooseDirPrompt
+Select folder location for output XML file.
+
+
+SimMechanics FileNamePrompt %0s
+Enter XML file name without .xml extension: |||%0s
+
+
+SimMechanics TransUnknownError
+An error occurred while exporting the current assembly to XML file.
+
+
+SimMechanics STLFailWarn %0s
+Warning: The stl file for %0s could not be created.
+
+
+SimMechanics ConstrainErrLine1 %0s
+Errors occurred while translating one or more assembly%0s
+
+
+SimMechanics ConstrainErrLine2 %0s
+constraints. The XML file has been saved as:%0s
+
+
+SimMechanics ConstrainErrLine3 %0s
+Simscape Multibody models that you generate from this XML file is valid but may%0s
+
+
+SimMechanics ConstrainErrLine4 %0s
+not represent your original assembly. For more information, see the documentation.%0s
+
+
+SimMechanics ConstrainErrLine5 %0s
+Constraint errors have been written to the error log%0s
+
+
+SimMechanics ConstrainErrLine6
+file: 
+
+
+SimMechanics ERR_UNSUPPORTED_CONSTGEOM
+Constraint geometry is not supported. Unknown geometry type has been exported.
+
+
+SimMechanics ERR_UNSUPPORTED_CONST
+Constraint is not supported. Unknown constraint has been exported.
+
+
+SimMechanics Generated-STL-For-Part %0w
+In the subsequent attempt, successfully generated the STL file for part %0w
+
+SimMechanics InvalidDirectory
+Invalid folder. Check folder name for typing errors. Do not specify UNC paths.
+
