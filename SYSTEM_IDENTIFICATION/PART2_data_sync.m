@@ -8,8 +8,8 @@
 clc; clear; close all;
 
 %% --- 1. CONFIGURATION ---
-INPUT_FOLDER  = 'PART2_studyV3_12V'; 
-OUTPUT_FOLDER = 'PART2_studyV3_Synced_Speed'; % Distinct output folder
+INPUT_FOLDER  = 'raw_data'; 
+OUTPUT_FOLDER = 'raw_data_synced_speed'; % Distinct output folder
 
 % SPEED THRESHOLD: 
 % 0.5 rad/s is usually good to ignore sensor noise but catch the start.

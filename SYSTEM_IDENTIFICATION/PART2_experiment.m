@@ -3,7 +3,7 @@
 SOURCE_TYPE = 'PART2'; 
 % Order must match your Multiport Switch in Simulink
 wave_names = {'Step', 'Ramp', 'Stair', 'Sine', 'Chirp'}; 
-PARENT_FOLDER = 'PART2_studyV4';
+PARENT_FOLDER = 'raw_data';
 
 %% --- 2. SELECT DATA SOURCE OBJECTS ---
 switch SOURCE_TYPE

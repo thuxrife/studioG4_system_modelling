@@ -6,12 +6,12 @@ This script for prepare data and parameters for parameter estimator.
 %}
 
 % R and L from experiment
-motor_R = 3.399924458;
-motor_L = 0.002853248;
+motor_R = 0.02903225806;
+motor_L = 0.00001451612903;
 % Optimization's parameters
-motor_Eff = 0.952868616;
-motor_Ke = 0.047996267;
-motor_J = 0.000009875;
-motor_B = 0.000032047;
+motor_Eff = 1.0;
+motor_Ke = 0.5;
+motor_J = 0.001;
+motor_B = 0.001;
 
 fprintf('Motor parameters loaded. You can now run Simulink.\n');
