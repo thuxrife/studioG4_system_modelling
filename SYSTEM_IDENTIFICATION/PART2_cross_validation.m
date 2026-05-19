@@ -17,18 +17,18 @@ warning('off', 'MATLAB:class:DestructorError');
 warning('off', 'Simulink:Commands:ParamUnknown');
 
 % --- 1. CONFIGURATION ------------------------------------------------
-model_name = 'Lab1_parameter_estimation_student';
-base_path_in = 'C:\Users\User\Documents\GitHub\FRA233_Lab1_G04\PART2_studyV4_Synced_Speed\';
-PARENT_FOLDER = 'PART2_result';
+model_name = 'stm32_system_identification';
+base_path_in = 'C:\Users\User\Documents\GitHub\studioG4_system_modelling\SYSTEM_IDENTIFICATION\raw_data_synced_speed';
+PARENT_FOLDER = 'result_data';
 
 wave_names = {'Step', 'Ramp', 'Stair', 'Sine', 'Chirp'};
 
 
-folders_in = {'part2_Step_1_2026-02-06_20-23', ...
-           'part2_Ramp_1_2026-02-06_20-25', ...
-           'part2_Stair_1_2026-02-06_20-26', ...
-           'part2_Sine_1_2026-02-06_20-32', ...
-           'part2_Chirp_1_2026-02-06_20-35'};
+folders_in = {'part2_Step_1_2026-05-10_20-41', ...
+           'part2_Ramp_1_2026-05-10_20-43', ...
+           'part2_Stair_1_2026-05-10_20-45', ...
+           'part2_Sine_1_2026-05-10_20-48', ...
+           'part2_Chirp_1_2026-05-10_20-49'};
 
 % folders_in = {'part2_Step_3_2026-02-03_20-31', ...
 %     'part2_Ramp_3_2026-02-03_20-35', ...
@@ -66,7 +66,7 @@ SimResults = struct();
 
 % --- 4. PHASE 1: SIMULATION (TEXT ONLY) ------------------------------
 fprintf('=== PHASE 1: RUNNING SIMULATIONS ===\n');
-fprintf('Using Fixed Electrical Params: R=3.399924458, L=0.002853248\n');
+fprintf('Using Fixed Electrical Params: R=0.02903225806, L=0.00001451612903\n');
 fprintf('-----------------------------------------------------------\n');
 fprintf('| %-10s | %-10s | %-10s |\n', 'SOURCE', 'TARGET', 'RMSE');
 fprintf('-----------------------------------------------------------\n');
@@ -86,8 +86,8 @@ for src_idx = 1:5
     assignin('base', 'motor_Ke', p.motor_Ke);
 
     % USE YOUR SPECIFIC VALUES
-    assignin('base', 'motor_R', 3.399924458);
-    assignin('base', 'motor_L', 0.002853248);
+    assignin('base', 'motor_R', 0.02903225806);
+    assignin('base', 'motor_L', 0.00001451612903);
 
     % Handle Efficiency/Friction safely
     if isfield(p, 'motor_Eff'), assignin('base', 'motor_Eff', p.motor_Eff); else, assignin('base', 'motor_Eff', 1.0); end
